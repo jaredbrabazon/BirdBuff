@@ -6,7 +6,7 @@ f7Card(tags$div(style="margin: 0% 5%", tags$div(style="margin: 0% 20%", tags$img
          tags$p("This app has four major tabs:"),
          tags$ol(
            tags$li(tags$p(f7Icon("shuffle"),tags$strong(" ShuffleBird Tab:"), "This tab allows you to pull a random selection of birds from the world. Test out your global id skills here! This tab does not require an API key to use.")),
-           tags$li(tags$p(f7Icon("rectangle_stack_badge_person_crop"),tags$strong(" User Choice Tab:"), " This tab allows you to build your own adventure. Choose what birds throughtout the world that you would like to study. This tab does not require an API key to use.")),
+           tags$li(tags$p(f7Icon("rectangle_stack_badge_person_crop"),tags$strong(" User Choice Tab:"), " This tab allows you to build your own adventure. Choose what birds throughout the world that you would like to study. This tab does not require an API key to use.")),
            tags$li(tags$p(f7Icon("map_pin_ellipse",f7Badge("*API", color = "blue")),HTML("&nbsp;"),tags$strong( "Pin-Map Tab:"), " This tab allows you to select a specific location on a map. Using your API Key, the app will ask eBird what birds have been within 50km of this location in the past 30 days. You can even refine your bird search to just the few birds you would like to brush up on. Please not that not all birds will have photos or audio, however, most do. This tab requires an API Key in order to work.")),
            tags$li(tags$p(f7Icon("map",f7Badge("*API", color = "blue")),HTML("&nbsp;"),tags$strong( "Regions Tab:"), " This tab allows you to select birds seen within different regions of the world at different frequencies. This tab requires an API key."))
          ),
